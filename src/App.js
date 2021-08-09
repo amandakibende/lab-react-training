@@ -2,6 +2,7 @@ import React from 'react';
 import IdCard from './Components/IdCard';
 import './App.css';
 import "./style/IdCard.css";
+import Greetings from './Components/Greetings';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
       </header>
+     <Greetings lang="de">Biggy</Greetings>
+     <Greetings lang="en">Tupac</Greetings>
+     
+
     
     </div>
   );
